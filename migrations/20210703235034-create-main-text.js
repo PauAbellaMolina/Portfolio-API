@@ -9,25 +9,25 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       subheading: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       about: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       footer_1: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       footer_2: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       footer_3: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       footer_4: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       footer_5: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       createdAt: {
         allowNull: true,
