@@ -11,8 +11,11 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
+      title_font_size: {
+        type: Sequelize.INTEGER
+      },
       cover_image: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       description_1: {
         type: Sequelize.STRING
